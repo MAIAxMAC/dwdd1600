@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>SittingInTheCorner's Digital Commissions: Home </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Maia McKinnon">
+        <meta name="description" content="Digital artwork portfolio and character design pricing information">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    </head>
+    <body>
+    <!-- Begin Header -->
+        <header>
+            <img src="images/logo.png" alt="logo" width="100" height="100">
+            <div>
+                <h1>SittingInTheCorner's Character Designs</h1>
+                <h2>Digital Portfolio and Commission Pricing</h2>
+            </div>
+        </header>
+    <!-- Begin Nav -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    <!-- Begin Main -->
+        <main>
+            <h1 id="topcontact">Contact</h1>
+            <h2 class="subheader">Questions? Let's Get in Touch!</h2>
+            <p class="contactinfo">
+                <a href="mailto:sitccommissions@gmail.com">Email</a> &bull; <a href="https://www.instagram.com/sittinginthecorn/" target="_blank">Instagram</a> &bull; <a href="https://twitter.com/sittinginlecorn" target="_blank">X (Twitter)</a> &bull; <a href="tel:8015584125">Phone</a>
+            </p>
+            <h2 class="subheader">Interested in Commissioning a Work?</h2>
+            <p id="waitlist">Join the Waitlist Below!</p>
+    <!--Begin Form-->
+            <form method="get" class="commform" action="thanks.html">
+                <fieldset>
+                <legend>Client Information</legend>
+                    <label>First Name* <input type="text" name="fname" required> </label>
+                    <label>Last Name* <input type="text" name="lname" required></label>
+                    <label>Email* <input type="email" name="email" required></label>
+                </fieldset>
+                <fieldset>
+                <legend>Other Preferred Methods of Contact</legend>
+                    <label><input type="checkbox" name="phone" value="yes">Text / Call</label>
+                    <label class="specify"><input type="tel" name="phonenumber" placeholder="Phone Number"></label>
+                    <label><input type="checkbox" name="instagram" value="yes">Instagram</label>
+                    <label class="specify"><input type="text" name="instagram" placeholder="Username"></label>
+                    <label><input type="checkbox" name="twitter" value="yes">X (Twitter)</label>
+                    <label class="specify"><input type="text" name="twitter" placeholder="Username"></label>
+                </fieldset>
+                <fieldset>
+                <legend>Commission Details</legend>
+                    <label>How Many Drawings?*<select>
+                        <option>Choose</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5+</option>
+                    </select></label>
+                    <p class="detail">What Size?</p>
+                    <label><input type="radio" name="sizes" value="bust">Bust Shot</label>
+                    <label><input type="radio" name="sizes" value="half">Half Body</label>
+                    <label><input type="radio" name="sizes" value="full">Full Body</label>
+                    <label><input type="radio" name="sizes" value="bust">Full Scene</label>
+                    <p class="detail">What Style?</p>
+                    <label><input type="radio" name="styles" value="sketch">Sketch</label>
+                    <label><input type="radio" name="styles" value="colorsketch">Colored Sketch</label>
+                    <label><input type="radio" name="styles" value="flat">Flat Color</label>
+                     <label><input type="radio" name="styles" value="shaded">Comic Shading</label>
+                     <label><input type="radio" name="styles" value="rendered">Full Render</label>
+                     <label><input type="radio" name="styles" value="realism">Full Realism</label>
+                    <p class="detail">Additional Information</p>
+                    <textarea name="comments" placeholder="Please provide any additional information / details about the desired work!"></textarea>
+                </fieldset>
+                <input type="submit" value="Join Waitlist">
+            
+            
+            </form>
+        </main>
+    <!-- Begin Footer -->
+        <footer>
+        <p>&copy; 2024 &bull; Maia McKinnon &bull; <a href="mailto:sitccommissions@gmail.com">Email Me</a> &bull; <a href="https://www.instagram.com/sittinginthecorn/" target="_blank">Instagram</a></p>
+        </footer>
+    </body>
+</html>
